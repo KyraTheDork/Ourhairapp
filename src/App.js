@@ -22,6 +22,7 @@ import navlogo from "./images/topnav2.svg";
 
 const App = () => {
 	const { currentUser } = useContext(AuthContext);
+	const url = "https://www.kyramellema.com";
 	return (
 		<Router>
 			<div className="app">
@@ -63,11 +64,9 @@ const App = () => {
 								{!!currentUser ? (
 									<>
 										<li className="nav-item">
-											<Link
-												className="nav-link"
-												to="kyramellema.com">
+											<a className="nav-link" href={url}>
 												KyraMellema.com
-											</Link>
+											</a>
 										</li>
 										<li className="nav-item nav-up">
 											<Link
@@ -80,11 +79,9 @@ const App = () => {
 								) : (
 									<>
 										<li className="nav-item">
-											<Link
-												className="nav-link"
-												to="https://www.kyramellema.com">
+											<a className="nav-link" href={url}>
 												KyraMellema.com
-											</Link>
+											</a>
 										</li>
 										<li className="nav-item">
 											<Link
