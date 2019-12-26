@@ -65,7 +65,7 @@ const App = () => {
 										<li className="nav-item">
 											<Link
 												className="nav-link"
-												to="https://www.kyramellema.com">
+												to="kyramellema.com">
 												KyraMellema.com
 											</Link>
 										</li>
