@@ -53,7 +53,8 @@ class MakingApts extends React.Component {
 						<select
 							value={this.state.type}
 							name="type"
-							onChange={this.updateInput}>
+							onChange={this.updateInput}
+						>
 							<option value="cut">Cut</option>
 							<option value="trim">Trim</option>
 							<option value="color">Color</option>

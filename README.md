@@ -39,7 +39,7 @@ npm install moment react-moment
 
 -   **Gilford Williams** - [GilliamD](https://github.com/GilliamD)
 
--   **Rhonda Janell** - [Rjmckenney](https://github.com/rjmckenney)
+-   **Rhonda Janell Mckenney** - [Rjmckenney](https://github.com/rjmckenney)
 
 ## Acknowledgments
 
