@@ -62,6 +62,13 @@ const App = () => {
 							<ul className="navbar-nav">
 								{!!currentUser ? (
 									<>
+										<li className="nav-item">
+											<Link
+												className="nav-link"
+												to="https://www.kyramellema.com">
+												KyraMellema.com
+											</Link>
+										</li>
 										<li className="nav-item nav-up">
 											<Link
 												className="nav-link"
@@ -72,6 +79,13 @@ const App = () => {
 									</>
 								) : (
 									<>
+										<li className="nav-item">
+											<Link
+												className="nav-link"
+												to="https://www.kyramellema.com">
+												KyraMellema.com
+											</Link>
+										</li>
 										<li className="nav-item">
 											<Link
 												className="nav-link"
